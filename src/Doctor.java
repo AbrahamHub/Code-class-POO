@@ -6,7 +6,7 @@ public class Doctor {
     public void showName() {
         System.out.println(name);
     }
-    public static void decirhola() {
-        System.out.println("Hola");
+    Doctor() {
+        System.out.println("Construyendo el objeto Doctor");
     }
 }
