@@ -6,5 +6,7 @@ public class Doctor {
     public void showName() {
         System.out.println(name);
     }
-
+    public static void decirhola() {
+        System.out.println("Hola");
+    }
 }
