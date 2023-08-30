@@ -1,12 +1,13 @@
 public class Patient {
-    public String name;
-    public String email;
-    public String address;
-    public String phoneNumber;
-    public String birthday;
-    public double weight;
-    public double height;
-    public String blood;
+    int id;
+    String name;
+    String email;
+    String address;
+    String phoneNumber;
+    String birthday;
+    private double weight;
+    private double height;
+    String blood;
 
     Patient(String name, String email) {
         this.name = name;
