@@ -1,13 +1,14 @@
 public class Patient {
     int id;
-    String name;
-    String email;
-    String address;
-    String phoneNumber;
-    String birthday;
+    //Getters and Setters
+    private String name;
+    private String email;
+    private  String address;
+    private String phoneNumber;
+    private String birthday;
     private double weight;
     private double height;
-    String blood;
+    private String blood;
 
     Patient(String name, String email) {
         this.name = name;
