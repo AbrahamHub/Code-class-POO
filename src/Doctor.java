@@ -10,9 +10,11 @@ public class Doctor {
         System.out.println("Construyendo el objeto Doctor");
         id++;
     }
-    Doctor (String name) {
+    Doctor (String name, String speciality) {
         System.out.println("El nombre del doctor asignado es: " + name);
         id++;
+        this.name = name;
+        this.speciality = speciality;
     }
     public void showId() {
         System.out.println("ID Doctor: " + id);
